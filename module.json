@@ -1,0 +1,59 @@
+{
+  "id": "masks-campaigns",
+  "title": "Masks: Campaigns",
+  "description": "Campaign-specific content for Masks: A New Generation (private module).",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13.35,
+    "maximum": 15
+  },
+  "authors": [
+    {
+      "name": "RcKeller",
+      "url": "https://github.com/RcKeller"
+    }
+  ],
+  "packs": [
+    {
+      "name": "dispatch-journals",
+      "label": "Dispatch: Journals",
+      "path": "packs/dispatch-journals",
+      "type": "JournalEntry",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dispatch-scenes",
+      "label": "Dispatch: Scenes",
+      "path": "packs/dispatch-scenes",
+      "type": "Scene",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "masks-newgeneration-unofficial",
+        "type": "module"
+      }
+    ]
+  },
+  "url": "https://github.com/RcKeller/masks-campaigns",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

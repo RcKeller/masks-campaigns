@@ -1,0 +1,13 @@
+{
+  "name": "masks-campaigns",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pushLDBtoJSON": "node tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node tools/pullJSONtoLDB.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}
