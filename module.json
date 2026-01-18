@@ -37,6 +37,30 @@
         "TRUSTED": "OWNER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "dispatch-characters",
+      "label": "Dispatch: Characters",
+      "path": "packs/dispatch-characters",
+      "type": "Actor",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dispatch-calls",
+      "label": "Dispatch: Calls",
+      "path": "packs/dispatch-calls",
+      "type": "Actor",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OWNER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "relationships": {
