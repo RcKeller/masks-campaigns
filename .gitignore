@@ -1,4 +1,4 @@
 node_modules/
-packs/
-!packs/.gitkeep
+/packs/
+!/packs/.gitkeep
 .DS_Store
