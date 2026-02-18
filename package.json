@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "pushLDBtoJSON": "node tools/pushLDBtoJSON.mjs",
-    "pullJSONtoLDB": "node tools/pullJSONtoLDB.mjs"
+    "packs:to-json": "fvtt-packs to-json",
+    "packs:to-ldb": "fvtt-packs to-ldb"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+    "@rckeller/foundryvtt-devtools": "^1.0.0"
   }
 }

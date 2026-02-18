@@ -37,8 +37,8 @@ Use campaign prefixes to organize content:
 
 ```bash
 npm install              # Install dependencies
-npm run pullJSONtoLDB    # JSON → LevelDB (after git pull)
-npm run pushLDBtoJSON    # LevelDB → JSON (for version control)
+npm run packs:to-ldb    # JSON → LevelDB (after git pull)
+npm run packs:to-json   # LevelDB → JSON (for version control)
 ```
 
 **Important:** Foundry must be closed when running pack conversion.
@@ -47,7 +47,7 @@ npm run pushLDBtoJSON    # LevelDB → JSON (for version control)
 
 1. Create content in Foundry
 2. Close Foundry
-3. Run `npm run pushLDBtoJSON`
+3. Run `npm run packs:to-json`
 4. Commit the JSON changes
 
 ## Image Paths
